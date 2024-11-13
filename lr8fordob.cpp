@@ -10,7 +10,7 @@ int main()
 	cout << "Enter y= ";
 	cin >> y;
 	for (i = 1; i <= n; ++i) {
-		for (k = 1; k <= i; ++k) {
+		{
 			dob *= k * k;
 		}
 		Z = (y + dob * y) / (y * y + pow(sin(y), 2));
