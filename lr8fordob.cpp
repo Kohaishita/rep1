@@ -14,7 +14,7 @@ int main()
 			dob *= k * k;
 		}
 		Z = (y + dob * y) / (y * y + pow(sin(y), 2));
-		cout << "k=" << i << "||" << "Z= " << Z << endl;
+		cout << "k=" << i << "|" << "Z= " << Z << endl;
 	}
 	return 0;
 }
